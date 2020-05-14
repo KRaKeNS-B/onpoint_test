@@ -1,0 +1,6 @@
+.Slider1Container {
+  width: 1024px;
+  height: 768px;
+  background-image: url(../../assets/slide1_bg.png);
+  background-size: cover;
+}

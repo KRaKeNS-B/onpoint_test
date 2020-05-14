@@ -1,0 +1,6 @@
+.Slider2Container {
+  width: 1024px;
+  height: 768px;
+  background-image: url(../../assets/slide2_bg.png);
+  background-size: cover;
+}
