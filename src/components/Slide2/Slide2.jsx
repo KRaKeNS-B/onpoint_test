@@ -3,7 +3,7 @@ import styles from './Slide2.module.css'
 
 const Slide2 = props => {
   return (
-    <div className={styles.Slider2Container + "hidden"}>
+    <div className={styles.Slider2Container + " " + props.className}>
 
     </div>
   )
