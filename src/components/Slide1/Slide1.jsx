@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from './Slide1.module.css'
+import Ellipse from '../Ellipse/Ellipse'
 
 const Slide1 = props => {
   return (
@@ -12,13 +13,38 @@ const Slide1 = props => {
       <div className={styles.slide_hypogl}>Гипогликемия</div>
       <div className={styles.slide_complicationsSD}>Осложнения СД</div>
       <div className={styles.slide_SSrisks}>СС риски</div>
-      <div className={styles.slide_ellipse}>
-        <div className={styles.slide_ellipse__child}></div>
-        <div className={styles.slide_ellipse__child2}></div>
-      </div>
-      {/* <div className={styles.slide_ellipse}></div>
-      <div className={styles.slide_ellipse}></div>
-      <div className={styles.slide_ellipse}></div> */}
+      <Ellipse
+        position={{
+          left: 561,
+          top: 262,
+        }}
+        diameter={53}
+        animationName={'ripple1'}
+      />
+      <Ellipse
+        position={{
+          left: 274,
+          top: 427,
+        }}
+        diameter={27}
+        animationName={'ripple2'}
+      />
+      <Ellipse
+        position={{
+          left: 479,
+          top: 538,
+        }}
+        diameter={15}
+        animationName={'ripple3'}
+      />
+      <Ellipse
+        position={{
+          left: 822,
+          top: 517,
+        }}
+        diameter={15}
+        animationName={'ripple4'}
+      />
     </div>
   )
 }
